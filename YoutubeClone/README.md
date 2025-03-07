@@ -11,6 +11,6 @@ by using Netlify through manual
 deploy and GitHub pages  for practice.
 
 
-GitHub deployed:- https://sahilmina.github.io/YoutubeClone/
+GitHub deployed:- https://sahilmina.github.io/Web_Development/
 
 Manual deployed:- https://youtubeclonebysahil07.netlify.app
