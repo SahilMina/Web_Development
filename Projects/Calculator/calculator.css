@@ -1,0 +1,84 @@
+body {
+  background-color: burlywood;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.header {
+  position: absolute;
+  top: 5px;
+  text-align: center;
+}
+
+@keyframes rotateLetter {
+  from {
+    transform: rotateY(90deg);
+    opacity: 0;
+  }
+  to {
+    transform: rotateY(0deg);
+    opacity: 1;
+  }
+}
+
+#animated-title span {
+  display: inline-block;
+  opacity: 0; /* Start hidden */
+  animation: rotateLetter 4s ease-in-out forwards;
+}
+
+
+#calculator {
+  border: 2px solid rgb(37, 10, 17);
+  border-radius: 10px;
+  margin-top: 30px;
+  width: 200px;
+  background-color: rgb(216, 82, 118);
+  padding: 5px;
+  
+}
+
+#display {
+  margin: 10px;
+  width: 85%;
+  font-size: 25px;
+  text-align: right;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: rgb(216, 82, 118);
+}
+
+.button {
+  width: 45px;
+  height: 45px;
+  margin: 3px;
+  background-color: rgb(216, 201, 205);
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  background: rgb(245, 225, 230);
+  cursor: pointer;
+  transition: 0.3s ease-in-out;;
+}
+
+.button:hover {
+  background: rgb(255, 200, 210);
+  transform: scale(1.1);
+}
+
+.button:active {
+  background: rgb(235, 180, 190);
+  transform: scale(1);
+}
