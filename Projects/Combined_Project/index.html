@@ -1,0 +1,97 @@
+<<<<<<< HEAD
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Projects</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+  <h1 id="animated-title">Welcome To My Projects<br>
+  (Sahil)</h1>
+
+  <div class="projects-container">
+    <a href="Calculator/calculator.html" class="project-card">
+      <h2>Calculator</h2>
+      <p>Simple calculator for basic arithmetic operations.</p>
+    </a>
+
+    <a href="RPS game/RPS_Game.html" class="project-card">
+      <h2>Rock-Paper-Scissors</h2>
+      <p>Play the classic RPS game against the computer!</p>
+    </a>
+
+    <a href="Todo/todo.html" class="project-card">
+      <h2>To-Do List</h2>
+      <p>Manage your tasks efficiently with this To-Do List Page.</p>
+    </a>
+  </div>
+<script>   
+
+  window.onload = function () {
+  let title = document.getElementById("animated-title");
+  let text = title.innerText;
+  title.innerHTML = ""; 
+  
+  for (let i = 0; i < text.length; i++) {
+  let span = document.createElement("span");
+  span.innerText = text[i];
+  span.style.animationDelay = i * 0.1 + "s";
+  span.classList.add("animate-letter");
+  title.appendChild(span);
+  }
+  };</script>
+
+</body>
+</html>
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Projects</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+  <h1 id="animated-title">Welcome To My Projects<br>
+  (Sahil)</h1>
+
+  <div class="projects-container">
+    <a href="Calculator/calculator.html" class="project-card">
+      <h2>Calculator</h2>
+      <p>Simple calculator for basic arithmetic operations.</p>
+    </a>
+
+    <a href="RPS game/RPS_Game.html" class="project-card">
+      <h2>Rock-Paper-Scissors</h2>
+      <p>Play the classic RPS game against the computer!</p>
+    </a>
+
+    <a href="Todo/todo.html" class="project-card">
+      <h2>To-Do List</h2>
+      <p>Manage your tasks efficiently with this To-Do List Page.</p>
+    </a>
+  </div>
+<script>   
+
+  window.onload = function () {
+  let title = document.getElementById("animated-title");
+  let text = title.innerText;
+  title.innerHTML = ""; 
+  
+  for (let i = 0; i < text.length; i++) {
+  let span = document.createElement("span");
+  span.innerText = text[i];
+  span.style.animationDelay = i * 0.1 + "s";
+  span.classList.add("animate-letter");
+  title.appendChild(span);
+  }
+  };</script>
+
+</body>
+</html>
+>>>>>>> 14b960ae6fb5ae2b11d028430dd301ca2c6010cf
