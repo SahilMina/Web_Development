@@ -1,0 +1,87 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: burlywood;
+  margin: 20px;
+}
+
+.header {
+  display: block;
+  text-align: center;
+ 
+}
+
+@keyframes rotateLetter {
+  from {
+    transform: rotateY(90deg);
+    opacity: 0;
+  }
+  to {
+    transform: rotateY(0deg);
+    opacity: 1;
+  }
+}
+
+#animated-title span {
+  display: inline-block;
+  opacity: 0; /* Start hidden */
+  animation: rotateLetter 2s ease-in-out forwards;
+  color: darkred;
+}
+
+
+#main-heading {
+  text-align: center;
+  color: #333333;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 100px;
+  gap: 10px;
+  max-width: 500px;
+  margin: auto;
+  text-align: center;
+  align-items: center;
+  padding: 30px;
+  border: aquamarine 2px solid;
+  
+}
+
+.todo-container {
+  display: none; 
+}
+
+
+#todo-input, #todo-date {
+  font-size: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.btn-todo, .btn-delete {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+.btn-todo {
+  background-color: #057713;
+  color: white;
+}
+
+.btn-todo:hover {
+  background-color: #045f10;
+}
+
+.btn-delete {
+  background-color: #870404;
+  color: white;
+}
+
+.btn-delete:hover {
+  background-color: #6a0303;
+}
