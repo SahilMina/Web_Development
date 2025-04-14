@@ -1,9 +1,9 @@
 <?php
 // Database configuration for cPanel
 define('DB_SERVER', 'localhost');
-define('DB_USERNAME', 'moviemate_moviemate');
-define('DB_PASSWORD', 'Sahilmina311201');
-define('DB_NAME', 'moviemate_Submission');
+define('DB_USERNAME', '');
+define('DB_PASSWORD', '');
+define('DB_NAME', '');
 
 // Error handling - ENABLE FOR DEBUGGING
 error_reporting(E_ALL);
