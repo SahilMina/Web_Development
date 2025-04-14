@@ -2,8 +2,8 @@
 $insert = false;
 if(isset($_POST['name'])){
     $server = "localhost";
-    $username = "moviemate_moviemate";
-    $password = "Sahilmina311201";
+    $username = "";
+    $password = "";
     $con = mysqli_connect($server, $username, $password);
 
     if(!$con){
