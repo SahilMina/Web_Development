@@ -1,8 +1,8 @@
 <?php
 // Set connection variables
 $server = "localhost";
-$username = "moviemate_moviemate";
-$password = "Sahilmina311201";
+$username = "";
+$password = "";
 
 // Create a database connection
 $con = mysqli_connect($server, $username, $password);
